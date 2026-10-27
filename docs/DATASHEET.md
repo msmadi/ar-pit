@@ -83,29 +83,4 @@ Stop words were deliberately **not** removed, since they carry meaning relevant 
 
 This mapping reproduces the published split statistics exactly (e.g. train: 13.2 + 9.7 + 7.9 = 30.8% ≈ 526 paraphrases; score 2 = 8.8% ≈ 149 debatable).
 
-## 7. Uses
 
-**Intended.** Arabic PI and STS research; benchmarking lexical, neural and LLM similarity methods; duplicate‑news and first‑story detection; cross‑lingual comparison with SemEval‑2015 PIT.
-
-**Not recommended.** Inferring political stance of outlets; any use as ground truth about the events reported; training systems that generate news content without verification.
-
-**Known limitations.**
-- Single domain and narrow time window (mid‑2015 era news), so topical drift is limited and models can exploit named‑entity overlap.
-- Short texts (tweet‑length), which weakens topic models such as LDA and LSI.
-- Professional MSA only; does not represent dialectal or user‑generated Arabic.
-- No published inter‑annotator agreement figure.
-
-## 8. Distribution and maintenance
-
-- Hosted on GitHub. <!-- TODO: add DOI (e.g. Zenodo release) -->
-- Tweet text is owned by the original publishers; redistribution is for non‑commercial research and subject to the X developer terms.
-- Issues and corrections: please open a GitHub issue.
-
-## 9. Known discrepancies between sources
-
-These are recorded here so users know which figure to rely on:
-
-1. **Number of annotators:** three in the published paper, five in the thesis chapter.
-2. **Test‑label mapping:** the thesis chapter's prose maps test scores 4–5 to paraphrase and 3 to debatable. The published statistics only add up with **3–5 → paraphrase, 2 → debatable, 0–1 → non‑paraphrase**, which is the mapping used in this repository.
-3. **Non‑paraphrase counts:** the paper's Table 1 (1,176 / 538) counts debatable pairs as non‑paraphrase; the chapter's table separates them (1,027 + 149 / 465 + 73).
-4. **Test non‑paraphrase percentage:** 465 / 791 = 58.8% (the chapter prints 58.6%).
