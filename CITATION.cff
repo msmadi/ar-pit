@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the article below."
+title: "Arabic News Tweets Paraphrase Identification and Semantic Textual Similarity Dataset (AR-PIT)"
+type: dataset
+authors:
+  - family-names: AL-Smadi
+    given-names: Mohammad
+  - family-names: Jaradat
+    given-names: Zain
+  - family-names: AL-Ayyoub
+    given-names: Mahmoud
+  - family-names: Jararweh
+    given-names: Yaser
+keywords:
+  - paraphrase identification
+  - semantic textual similarity
+  - Arabic
+  - Twitter
+  - natural language processing
+preferred-citation:
+  type: article
+  title: "Paraphrase identification and semantic text similarity analysis in Arabic news tweets using lexical, syntactic, and semantic features"
+  authors:
+    - family-names: AL-Smadi
+      given-names: Mohammad
+    - family-names: Jaradat
+      given-names: Zain
+    - family-names: AL-Ayyoub
+      given-names: Mahmoud
+    - family-names: Jararweh
+      given-names: Yaser
+  journal: "Information Processing & Management"
+  volume: 53
+  issue: 3
+  start: 640
+  end: 652
+  year: 2017
+  publisher:
+    name: Elsevier
+  doi: "10.1016/j.ipm.2017.01.002"
